@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+	<p>Enter number and click OK</p>
+	<input id="id2" type="number"  min="100" max="300" required>
+	
+	<button onClick="myFuctionValidate()">OK</button>
+	<p id="demo"></p>
+	<script>
+		function myFuctionValidate(){
+			var inpObj = document.getElementById("id2");
+			if(!inpObj.checkValidity()){
+				document.getElementById("demo").innerHTML =inpObj.validationMessage;
+			}else{
+				document.getElementById("demo").innerHTML ="Input OK";
+			}
+		}
+	</script>
+</body>
+</html>
