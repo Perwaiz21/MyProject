@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<h1>Hello World</h1>
+	<h1>Hello World from Git Web</h1>
 	<a href="http://localhost:8080/MyProjects/Jsp-First-Page/NextPage.jsp">Next Page</a><br> 
 </body>
 </html>
